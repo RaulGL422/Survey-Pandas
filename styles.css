@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(16, 16, 87);
+    width: 80%;
+
+    border-radius: 15px;
+
+    margin: 5% auto;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 5%;
+}
