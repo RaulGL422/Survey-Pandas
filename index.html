@@ -10,9 +10,31 @@
 <body>
     <div class="container">
         <h1>Save Pandas!</h1>
+        <p>Welcome to my Survey, if you complete this survey, you can save one Panda Bear.</p>
         <form action="">
-            <input type="text" name="" id="">
+            <label for="name">Name and Surnames</label>
+            <input type="text" id="name" name="name" required>
+            <label for="Age">Date of Birth</label>
+            <input type="date" id="age" name="age" required>
+            <label for="nacionality">Nacionality</label>
+            <input type="text" id="nacionality" name="nacionality">
+            <label for="select">Which option best describes you?</label>
+            <select name="select" id="Select">
+                <option value=""></option>
+                <option value="kid">Kid</option>
+                <option value="adult">Adult</option>
+                <option value="old_man">Old Man</option>
+            </select>
+            <label for="comentario">Leave a comment</label>
+            <textarea name="comentario" id="tarea"></textarea>
+            <fieldset>
+                <input type="checkbox" name="like_panda" id="like_panda">
+                <label for="like_panda">Do you like Pandas?</label>
+            </fieldset>
+
+            <input type="submit" value="Send Answers">
         </form>
+        <h4>Creado por Raul Galindo | RaulGL422 in GitHub</h4>
     </div>
 </body>
 </html>
